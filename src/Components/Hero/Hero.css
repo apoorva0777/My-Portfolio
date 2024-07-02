@@ -1,0 +1,92 @@
+.hero{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.hero img{
+    margin-top: 20px;
+}
+
+.hero h1{
+    text-align: center;
+    width: 70%;
+    font-size: 90px;
+    font-weight: 600;
+}
+
+.hero h1 span{
+    background: linear-gradient(267deg,rgb(112, 14, 139),rgb(148, 11, 111));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.hero p{
+    width: 50%;
+    text-align: center;
+    font-size: 30px;
+    line-height: 40px;
+    
+}
+
+.hero-action{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 24px;
+    font-weight: 50px;
+    margin-bottom: 50px;
+}
+.hero-connect{
+    padding: 25px;
+    border-radius: 50px;
+    background: linear-gradient(267deg,rgb(112, 14, 139),rgb(148, 11, 111));
+    cursor: pointer;
+}
+
+.hero-resume{
+    padding: 25px;
+    border-radius: 50px;
+    border: 2px solid white;
+    background: linear-gradient(267deg,rgb(112, 14, 139),rgb(148, 11, 111));
+    cursor: pointer;
+}
+
+.hero-connect:hover{
+    border: 4px solid white;
+}
+.hero-resume:hover{
+    border: 4px solid blueviolet;
+
+}
+.moving-image {
+    width: 300px; /* Adjust the size as needed */
+    animation: moveUpDown 3s infinite alternate , glowColorChange 4s infinite alternate;
+    border-radius: 100%;
+}
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(40px); /* Adjust the distance as needed */
+    }
+}
+
+img:hover{
+    box-shadow: 0 0 20px 10px rgba(83, 2, 96, 0.8); /* Glow effect */
+}
+@keyframes glowColorChange {
+    0% {
+        box-shadow: 0 0 20px 10px rgba(105, 4, 135, 0.8); /* Pink */
+    }
+    50% {
+        box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.8); /* White */
+    }
+    100% {
+        box-shadow: 0 0 20px 10px rgba(208, 9, 215, 0.449); /* Pink */
+    }
