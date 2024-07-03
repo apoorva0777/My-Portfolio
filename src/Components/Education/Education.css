@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 95px;
+}
+
+.subcontainer{
+    border: 2px solid rgb(129, 11, 184);
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
