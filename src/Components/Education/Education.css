@@ -1,14 +1,96 @@
-.container{
+.container {
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 95px;
+    gap: 50px;
+    padding: 40px;
+    background-color: #000000;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.subcontainer{
+.container h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #70148b;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.subcontainer {
     border: 2px solid rgb(129, 11, 184);
     padding: 50px;
     display: flex;
+    border-radius: 50px;
     align-items: center;
     flex-direction: row;
+    width: 100%;
+    gap: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: background 0.5s, transform 0.3s, opacity 0.5s, transform 0.5s;
+    opacity: 0; /* Initially hidden */
+    transform: translateY(50px); /* Initially positioned below */
 }
+
+.subcontainer.visible {
+    opacity: 1; /* Become visible */
+    transform: translateY(0); /* Move to original position */
+}
+
+.subcontainer:hover {
+    background: linear-gradient(267deg, rgb(86, 10, 107), rgb(108, 8, 81));
+    transform: scale(1.07);
+}
+
+.subcontainer img {
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.subcontainer div {
+    flex-grow: 1;
+}
+
+.subcontainer h2 {
+    font-size: 24px;
+    color: #966ca2;
+    margin-bottom: 5px;
+}
+
+.subcontainer h3 {
+    font-size: 18px;
+    color: #7b6e7e;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.subcontainer p {
+    font-size: 16px;
+    color: #767676;
+    margin: 0;
+}
+
+/* Animation for scroll reveal */
+@keyframes pop-up {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.subcontainer.visible {
+    animation: pop-up 4.5s ease-in-out;
+}
+
+

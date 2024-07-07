@@ -1,38 +1,51 @@
-.hero{
+.hero {
     display: flex;
     align-items: center;
     flex-direction: column;
     gap: 35px;
 }
 
-.hero img{
+.hero img {
     margin-top: 20px;
 }
 
-.hero h1{
+.hero h1 {
     text-align: center;
     width: 70%;
     font-size: 90px;
     font-weight: 600;
 }
 
-.hero h1 span{
-    background: linear-gradient(267deg,rgb(112, 14, 139),rgb(148, 11, 111));
+.hero h1 span {
+    background: linear-gradient(267deg, rgb(112, 14, 139), rgb(148, 11, 111));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    
+    display: inline-block;
 }
 
-.hero p{
+.hero-name span {
+    opacity: 0;
+    transform: translateY(20px);
+    display: inline-block;
+    animation: appear 2.5s forwards;
+}
+
+@keyframes appear {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.hero p {
     width: 50%;
     text-align: center;
     font-size: 30px;
     line-height: 40px;
-    
 }
 
-.hero-action{
+.hero-action {
     display: flex;
     align-items: center;
     gap: 25px;
@@ -40,31 +53,33 @@
     font-weight: 50px;
     margin-bottom: 50px;
 }
-.hero-connect{
+
+.hero-connect {
     padding: 25px;
     border-radius: 50px;
-    background: linear-gradient(267deg,rgb(112, 14, 139),rgb(148, 11, 111));
+    background: linear-gradient(267deg, rgb(112, 14, 139), rgb(148, 11, 111));
     cursor: pointer;
 }
 
-.hero-resume{
+.hero-resume {
     padding: 25px;
     border-radius: 50px;
     border: 2px solid white;
-    background: linear-gradient(267deg,rgb(112, 14, 139),rgb(148, 11, 111));
+    background: linear-gradient(267deg, rgb(112, 14, 139), rgb(148, 11, 111));
     cursor: pointer;
 }
 
-.hero-connect:hover{
+.hero-connect:hover {
     border: 4px solid white;
 }
-.hero-resume:hover{
-    border: 4px solid blueviolet;
 
+.hero-resume:hover {
+    border: 4px solid blueviolet;
 }
+
 .moving-image {
     width: 300px; /* Adjust the size as needed */
-    animation: moveUpDown 3s infinite alternate , glowColorChange 4s infinite alternate;
+    animation: moveUpDown 3s infinite alternate, glowColorChange 4s infinite alternate;
     border-radius: 100%;
 }
 
@@ -77,9 +92,10 @@
     }
 }
 
-img:hover{
+img:hover {
     box-shadow: 0 0 20px 10px rgba(83, 2, 96, 0.8); /* Glow effect */
 }
+
 @keyframes glowColorChange {
     0% {
         box-shadow: 0 0 20px 10px rgba(105, 4, 135, 0.8); /* Pink */
@@ -90,3 +106,4 @@ img:hover{
     100% {
         box-shadow: 0 0 20px 10px rgba(208, 9, 215, 0.449); /* Pink */
     }
+}
