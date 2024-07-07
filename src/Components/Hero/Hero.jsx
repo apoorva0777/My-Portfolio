@@ -13,7 +13,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className='hero'>
+    <div id='about' className='hero'>
       <img src={profile_img} alt="Profile" height='270px' className="moving-image" />
       <h1> I'm <span className="hero-name">Apoorva Shukla</span></h1>
       <p>B.Tech CSE Student Delving into Full Stack Development</p>

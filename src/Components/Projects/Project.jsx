@@ -4,7 +4,7 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa"; // Import icons fr
 
 const Project = () => {
   return (
-    <div className="project-section">
+    <div id="project" className="project-section">
       <h2>Projects</h2>
       <div className="project-list">
         <div className="project-item">
@@ -100,7 +100,7 @@ const Project = () => {
           </div>
         </div>
 
-        
+
       </div>
     </div>
   );

@@ -4,7 +4,6 @@
     align-items: center;
     gap: 50px;
     padding: 40px;
-    background-color: #000000;
     border-radius: 10px;
     margin: 20px auto;
     width: 80%;
@@ -60,7 +59,7 @@
   .project-section h2{
     text-align: center;
     font-size: 50px;
-    color: #9639b2;
+    color: #ffffff;
     text-transform: uppercase;
     letter-spacing: 2px;
   }
