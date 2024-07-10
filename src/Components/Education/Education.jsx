@@ -29,7 +29,7 @@ const Education = () => {
   }, []);
 
   return (
-    <div className="container">
+    <div id="education" className="container">
       <h1>EDUCATION</h1>
       <div className="subcontainer">
         <img src={Gaurav_logo} alt="Gaurav Memorial International School" />

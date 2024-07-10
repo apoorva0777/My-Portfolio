@@ -5,12 +5,12 @@ import Education from './Components/Education/Education'
 import Tech from './Components/Tech/Tech'
 import Project from './Components/Projects/Project'
 import Contact from './Components/Contact/Contact'
-
+import { BrowserRouter } from 'react-router-dom'
 
 
 const App = () => {
   return (
-    <div>
+    <BrowserRouter>
       <Navbar>
       </Navbar>
       <Hero></Hero>
@@ -18,8 +18,8 @@ const App = () => {
       <Tech></Tech>
       <Project></Project>
       <Contact></Contact>
-
-    </div>
+    </BrowserRouter>
+  
   )
 }
 
