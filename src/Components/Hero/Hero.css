@@ -107,3 +107,12 @@ img:hover {
         box-shadow: 0 0 20px 10px rgba(208, 9, 215, 0.449); /* Pink */
     }
 }
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(158, 112, 201);
+}
