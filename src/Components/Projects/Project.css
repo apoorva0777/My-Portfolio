@@ -4,10 +4,11 @@
     align-items: center;
     gap: 50px;
     padding: 40px;
-    border-radius: 10px;
+    border-radius: 20px;
     margin: 20px auto;
     width: 80%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* background-color: hsla(277, 82%, 28%, 0.2); */
+    box-shadow: 0 4px 20px rgba(83, 18, 129, 0.86);
   }
   
   .project-list {
@@ -18,7 +19,7 @@
   }
   
   .project-item {
-    background: linear-gradient(267deg, rgb(112, 14, 139), rgb(148, 11, 111));
+    background: linear-gradient(267deg, rgba(112, 14, 139, 0.2), rgba(157, 8, 171, 0.645));
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

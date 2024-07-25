@@ -20,8 +20,9 @@
 }
 
 .subcontainer {
-    background-color: #400c50f0;
-    border: 5px solid rgb(64, 53, 53);
+    background: linear-gradient(267deg, rgba(112, 14, 139, 0.2), rgba(171, 9, 186, 0.645));
+    /* border: 5px solid rgb(64, 53, 53); */
+    box-shadow: 0 4px 20px rgba(114, 110, 117, 0.86);
     padding: 50px;
     display: flex;
     border-radius: 50px;
@@ -31,7 +32,7 @@
     gap: 40px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    transition: background 0.3s, transform 0.3s, opacity 0.5s, transform 0.5s;
+    transition: background 0.3s, transform 0.2s, opacity 0.5s, transform 0.5s;
     opacity: 0; /* Initially hidden */
     transform: translateY(50px); /* Initially positioned below */
 }
