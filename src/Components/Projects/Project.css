@@ -19,7 +19,7 @@
   }
   
   .project-item {
-    background: linear-gradient(267deg, rgba(112, 14, 139, 0.2), rgba(157, 8, 171, 0.645));
+    background: linear-gradient(267deg, rgba(112, 14, 139, 0.2), rgba(168, 9, 160, 0.645));
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -54,7 +54,7 @@
   .project-links .icon {
     font-size: 2rem;
     margin-right: 10px;
-    color: #330940;
+    color: #cec8d0;
   }
   
   .project-section h2{
