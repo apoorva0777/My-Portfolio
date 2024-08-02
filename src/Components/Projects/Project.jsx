@@ -67,7 +67,7 @@ const Project = () => {
               <FaGithub className="icon" />
             </a>
             <a
-              href="https://example.com"
+              href="https://chatapp-rd6j.onrender.com"
               target="_blank"
               rel="noopener noreferrer"
             >
