@@ -55,8 +55,8 @@ const Project = () => {
         <div className="project-item">
           <h3>Real Time Chat Application</h3>
           <p>
-            Realtime chat app with websockets using Node.js, Express and
-            Socket.io with Vanilla JS on the frontend with a custom UI
+          This project is a real-time chat application built with Node.js, Express, and Socket.io on the backend, and Vanilla JavaScript for the frontend.
+          The application allows multiple users to communicate with each other in real-time, providing a seamless and interactive chat experience.
           </p>
           <div className="project-links">
             <a
