@@ -36,7 +36,7 @@ const Education = () => {
         <div>
           <h2>Higher Secondary School</h2>
           <h3>Gaurav Memorial International School, Kanpur</h3>
-          <p>Percentage: </p>
+          <p>Percentage: 94.6%</p>
         </div>
       </div>
       <div className="subcontainer">
@@ -44,7 +44,7 @@ const Education = () => {
         <div>
           <h2>Senior Secondary School</h2>
           <h3>Gaurav Memorial International School, Kanpur</h3>
-          <p>Percentage: </p>
+          <p>Percentage: 89.8%</p>
         </div>
       </div>
       <div className="subcontainer">
@@ -52,7 +52,7 @@ const Education = () => {
         <div>
           <h2>Bachelor of Technology - BTech, CSE</h2>
           <h3>Lovely Professional University, Punjab</h3>
-          <p>CGPA: </p>
+          <p>CGPA: 7.9</p>
         </div>
       </div>
     </div>
