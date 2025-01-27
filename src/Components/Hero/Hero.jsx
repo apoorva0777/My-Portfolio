@@ -19,7 +19,7 @@ const Hero = () => {
       <p>B.Tech CSE Student Delving into Full Stack Development</p>
       <div className="hero-action">
         <div className="hero-connect"><a href='https://github.com/apoorva0777'>Github</a></div>
-        <div className="hero-resume">My resume</div>
+        <div className="hero-resume"><a href='https://drive.google.com/file/d/1mMEO8Jr5Km7Uiu6m7OQzJgFmE5d6z77X/view?usp=drive_link'>My resume</a></div>
       </div>
     </div>
   );

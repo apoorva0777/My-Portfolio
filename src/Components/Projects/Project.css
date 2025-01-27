@@ -27,8 +27,13 @@
   
   .project-item h3 {
     font-size: 24px;
-    color: #330940;
+    color: #e4acf5be;
     margin-bottom: 10px;
+    text-shadow: 
+    1px 1px 0 black, 
+    -1px 1px 0 black, 
+    1px -1px 0 black, 
+    -1px -1px 0 black;
   }
   
   .project-item p {
