@@ -32,11 +32,11 @@ const Education = () => {
     <div id="education" className="container">
       <h1>EDUCATION</h1>
       <div className="subcontainer">
-        <img src={Gaurav_logo} alt="Gaurav Memorial International School" />
+        <img src={LPU_logo} alt="Lovely Professional University" />
         <div>
-          <h2>Higher Secondary School</h2>
-          <h3>Gaurav Memorial International School, Kanpur</h3>
-          <p>Percentage: 94.6%</p>
+          <h2>Bachelor of Technology - BTech, CSE</h2>
+          <h3>Lovely Professional University, Punjab</h3>
+          <p>CGPA: 7.91</p>
         </div>
       </div>
       <div className="subcontainer">
@@ -48,11 +48,11 @@ const Education = () => {
         </div>
       </div>
       <div className="subcontainer">
-        <img src={LPU_logo} alt="Lovely Professional University" />
+        <img src={Gaurav_logo} alt="Gaurav Memorial International School" />
         <div>
-          <h2>Bachelor of Technology - BTech, CSE</h2>
-          <h3>Lovely Professional University, Punjab</h3>
-          <p>CGPA: 7.9</p>
+          <h2>Higher Secondary School</h2>
+          <h3>Gaurav Memorial International School, Kanpur</h3>
+          <p>Percentage: 94.6%</p>
         </div>
       </div>
     </div>

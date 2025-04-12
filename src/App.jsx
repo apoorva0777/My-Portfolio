@@ -4,6 +4,7 @@ import Hero from './Components/Hero/Hero'
 import Education from './Components/Education/Education'
 import Tech from './Components/Tech/Tech'
 import Project from './Components/Projects/Project'
+import Certificate from './Components/Certificate/Certificate'
 import Contact from './Components/Contact/Contact'
 import { BrowserRouter } from 'react-router-dom'
 
@@ -17,6 +18,7 @@ const App = () => {
       <Education></Education>
       <Tech></Tech>
       <Project></Project>
+      {/* <Certificate></Certificate> */}
       <Contact></Contact>
     </BrowserRouter>
   
