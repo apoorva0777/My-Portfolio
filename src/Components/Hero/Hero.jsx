@@ -16,7 +16,7 @@ const Hero = () => {
     <div id='about' className='hero'>
       <img src={profile_img} alt="Profile" height='270px' className="moving-image" />
       <h1> I'm <span className="hero-name">Apoorva Shukla</span></h1>
-      <p>"Aspiring Software Developer | B.Tech CSE Student | Passionate about Data Structures & Algorithms and problem-solving."</p>
+      <p>"Aspiring Software Developer | B.Tech CSE Student"</p>
       <div className="hero-action">
         <div className="hero-connect"><a href='https://github.com/apoorva0777'>Github</a></div>
         <div className="hero-resume"><a href='https://drive.google.com/file/d/1mMEO8Jr5Km7Uiu6m7OQzJgFmE5d6z77X/view?usp=drive_link'>My resume</a></div>
