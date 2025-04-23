@@ -5,24 +5,15 @@
 
 body{
     height: 100vh;
-/*     background: rgb(12, 1, 18); */
+    /* background: rgb(12, 1, 18); */
     /* background-image: url(https://i.pinimg.com/originals/8e/46/15/8e46150f790fbefe438d9c2767c32ad1.gif); */
     /* background-image: url(https://miro.medium.com/v2/resize:fit:1444/1*4eBLX6v8LRw9qhzbaHjurw.gif); */
     color: white;
     font-family: 'outfit';
     background-repeat: no-repeat;
-    background-position: 100%;
+    background-position: center;
     background-size: cover;
     background-attachment: fixed;
     background-color: black;
-    background-position: center;
-    margin: 0;
-    height: 100vh;
+    /* background is set black ,update it with the animated background later  */
 }
-
-<<<<<<< HEAD
-}
-=======
-
-/* background is set black ,update it with the animated background later  */
->>>>>>> 2916cc2 (Fix: ensure index.css is included in build)
