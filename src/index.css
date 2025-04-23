@@ -18,5 +18,11 @@ body{
     background-position: center;
     margin: 0;
     height: 100vh;
-
 }
+
+<<<<<<< HEAD
+}
+=======
+
+/* background is set black ,update it with the animated background later  */
+>>>>>>> 2916cc2 (Fix: ensure index.css is included in build)
