@@ -49,7 +49,7 @@ const Project = () => {
             <a href="https://github.com/apoorva0777/VerboX" target="_blank" rel="noopener noreferrer">
               <FaGithub className="icon" />
             </a>
-            <a href="https://verbobox.netlify.app/" target="_blank" rel="noopener noreferrer">
+            <a href="https://verbox.netlify.app/" target="_blank" rel="noopener noreferrer">
               <FaExternalLinkAlt className="icon" />
             </a>
           </div>
