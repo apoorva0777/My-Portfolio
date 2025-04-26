@@ -1,5 +1,5 @@
 import React from "react";
-import "./Project.css"; // Import CSS for Project styling
+import "./Project.css"; 
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa"; 
 
 const Project = () => {
@@ -43,7 +43,7 @@ const Project = () => {
           <img src="/images/verbobox.png" alt="VerboX" className="project-image" />
           <h3>VerboX - A Modern Dictionary</h3>
           <p>
-            VerboX is a modern dictionary offering precise definitions, accurate pronunciations, and in-depth word exploration. Users can bookmark their favorite words for easy reference, making learning new vocabulary engaging and efficient.
+            VerboX is a modern dictionary built with React ,offering precise definitions, accurate pronunciations, and in-depth word exploration. Users can bookmark their favorite words for easy reference, making learning new vocabulary engaging and efficient.
           </p>
           <div className="project-links">
             <a href="https://github.com/apoorva0777/VerboX" target="_blank" rel="noopener noreferrer">
