@@ -24,8 +24,24 @@ const Project = () => {
         </div>
 
         <div className="project-item">
+          <img src="/images/medikart.png" alt="Real Time Chat Application" className="project-image" />
+          <h3>MediKart - A Pharmacy Web App</h3>
+          <p>
+            MediKart is a responsive pharmacy e-commerce platform built using the MERN stack. It features secure user authentication, product browsing with search and filtering, shopping cart functionality, and Razorpay integration for online payments.
+          </p>
+          <div className="project-links">
+            <a href="https://github.com/apoorva0777/MediKart-Project" target="_blank" rel="noopener noreferrer">
+              <FaGithub className="icon" />
+            </a>
+            <a href="https://github.com/apoorva0777/MediKart-Project/issues/1" target="_blank" rel="noopener noreferrer">
+              <FaExternalLinkAlt className="icon" />
+            </a>
+          </div>
+        </div>
+
+        <div className="project-item">
           <img src="/images/chatapp.png" alt="Real Time Chat Application" className="project-image" />
-          <h3>Real Time Chat Application</h3>
+          <h3>WeChat-Real Time Chat Application</h3>
           <p>
             This project is a real-time chat application built with Node.js, Express, and Socket.io on the backend, and Vanilla JavaScript for the frontend. The application allows multiple users to communicate with each other in real-time, providing a seamless and interactive chat experience.
           </p>
@@ -54,6 +70,8 @@ const Project = () => {
             </a>
           </div>
         </div>
+
+        
       </div>
     </div>
   );
