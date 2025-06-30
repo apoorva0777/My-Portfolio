@@ -19,7 +19,7 @@ const Project = () => {
             <a href="https://github.com/apoorva0777/MediKart-Project" target="_blank" rel="noopener noreferrer">
               <FaGithub className="icon" />
             </a>
-            <a href="https://github.com/apoorva0777/MediKart-Project/issues/1" target="_blank" rel="noopener noreferrer">
+            <a href="https://medikart-project.vercel.app/" target="_blank" rel="noopener noreferrer">
               <FaExternalLinkAlt className="icon" />
             </a>
           </div>
