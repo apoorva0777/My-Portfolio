@@ -36,7 +36,7 @@ const Education = () => {
         <div>
           <h2>Bachelor of Technology - BTech, CSE</h2>
           <h3>Lovely Professional University, Punjab</h3>
-          <p>CGPA: 7.94</p>
+          <p>CGPA: 8.02</p>
         </div>
       </div>
       <div className="subcontainer">
