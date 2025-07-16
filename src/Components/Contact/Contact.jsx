@@ -7,9 +7,13 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs
-      .sendForm('service_irvr4y7', 'template_734bdbb', form.current, 'nReywNJQQj_IW_rFd')
+      .sendForm(
+        'service_irvr4y7',
+        'template_734bdbb',
+        form.current,
+        'nReywNJQQj_IW_rFd'
+      )
       .then(
         () => {
           alert('Form sent successfully! 😊');
@@ -18,12 +22,12 @@ const Contact = () => {
         (error) => {
           alert('Failed to send form. Please try again.');
           console.log('FAILED...', error.text);
-        },
+        }
       );
   };
 
   return (
-    <div id='contact' className="contact-section">
+    <div id="contact" className="contact-section">
       <h2>Contact Me</h2>
       <form ref={form} onSubmit={sendEmail} className="contact-form">
         <label htmlFor="name">Name:</label>

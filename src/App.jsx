@@ -7,6 +7,7 @@ import Project from './Components/Projects/Project'
 import Certificate from './Components/Certificate/Certificate'
 import Contact from './Components/Contact/Contact'
 import { BrowserRouter } from 'react-router-dom'
+import Ballpit from './Components/Ballpit'
 
 
 const App = () => {
@@ -19,7 +20,19 @@ const App = () => {
       <Tech></Tech>
       <Project></Project>
       {/* <Certificate></Certificate> */}
-      <Contact></Contact>
+  
+<section className="contact-wrapper">
+        <div className="ballpit-bg">
+          <Ballpit
+            count={50}
+            gravity={0.7}
+            friction={0.8}
+            wallBounce={1.95}
+            followCursor
+          />
+        </div>
+        <Contact />
+      </section>
     </BrowserRouter>
   
   )
